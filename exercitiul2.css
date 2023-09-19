@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+}
+
+.element {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    animation: schimbareCuloare 2s infinite;
+}
+
+@keyframes schimbareCuloare {
+    0% {
+        background-color: lightseagreen;
+    }
+    50% {
+        background-color: lightcoral;
+    }
+    100% {
+        background-color: lightyellow;
+    }
+}
