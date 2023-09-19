@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.titlu-culori {
+    font-size: 3rem;
+    text-align: center;
+    animation: schimbare-culoare 2s infinite alternate;
+}
+
+@keyframes schimbare-culoare {
+    0% {
+        color: rgb(110, 110, 208);
+    }
+    50% {
+        color: rgb(228, 238, 108);
+    }
+    100% {
+        color: red;
+    }
+}
+
+@media (max-width: 1023px) {
+    .titlu-culori {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .titlu-culori {
+        font-size: 1rem;
+    }
+}

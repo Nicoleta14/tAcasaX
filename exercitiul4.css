@@ -1,0 +1,21 @@
+
+
+.umbraTopRight {
+    width: 250px;
+    height: 150px;
+    background-color: pink;
+    box-shadow: 5px -5px 15px black;
+    text-align: center;
+    line-height: 64px;
+    color: white;
+}
+
+.umbraBottomLeft {
+    width: 250px;
+    height: 150px;
+    background-color: lightcoral;
+    box-shadow: -5px 5px 15px black;
+    text-align: center;
+    line-height: 64px;
+    color: white;
+}

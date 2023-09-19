@@ -1,0 +1,27 @@
+
+.spiner {
+    width: 250px;
+    height: 250px;
+    margin: 64px;
+    background-color:white;
+    border: 16px solid pink;
+    border-radius: 50%;
+    border-bottom: 16px solid rgb(230, 25, 25);
+    animation: loading 2s linear infinite;
+
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
